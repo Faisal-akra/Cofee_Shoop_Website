@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: o;
+    /* background-image: url(./background.png); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+.main-nav{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: yellow; */
+    align-items: center;
+
+}
+
+.main-nav a{
+    padding-right: 2vh;
+    text-decoration: none;
+    border: 1px solid ;
+    border-radius: 2vh;
+    
+}
+
+#logo{
+    margin-right: 160vh;
+    width: 8vh;
+}
