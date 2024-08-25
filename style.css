@@ -1,29 +1,208 @@
 *{
     padding: 0;
     margin: o;
-    /* background-image: url(./background.png); */
-    /* background-repeat: no-repeat;
+ 
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgba(98, 38, 38, 0.245), rgba(98, 38, 38, 0.245)), url(./new-back.png) ;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; */
+    
+
 }
 
-.main-nav{
+/* Nav baar */
+
+.main{
     display: flex;
-    justify-content: flex-end;
-    /* background-color: yellow; */
-    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(173, 141, 141);
+    width: 100%;
+}
+
+
+.anchor-tage {
+    justify-content: space-evenly;
+    display: flex;
+
+    padding-right: 5vh;
+    padding-top: 2vh;
 
 }
 
-.main-nav a{
-    padding-right: 2vh;
+.anchor-tage a{
     text-decoration: none;
     border: 1px solid ;
-    border-radius: 2vh;
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+
+    
+
+
+}
+.logo{
+    padding-left: 5vh;
+}
+
+/* Main */
+
+
+.main-div{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20vh;
+    
     
 }
 
-#logo{
-    margin-right: 160vh;
-    width: 8vh;
+.heading-div{
+
+    font-size: x-large;
+    position: relative;
+}
+
+.heading-div img{
+    padding-right: 100%;
+}
+
+#head{
+    color: rgb(77, 42, 42);
+}
+
+
+.cup-div{
+
+    position: relative;
+    padding-bottom: 10vh;
+}
+
+.cup-div img{
+    height: 80vh;
+    position: relative;
+    
+}
+
+
+.heading-div p{
+    padding-left: 2vh;
+    font-size: x-large;
+}
+
+#main-but{
+    margin-left: 15vh;
+    padding: 1vh;
+}
+
+#over{
+    padding-right: 100%;
+}
+
+
+
+/* Coffees */
+
+#c-heading{
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+.coffee-main{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+}
+
+
+#card-img{
+    background-image: url(/bach.png);
+    border: 2px solid black;
+    width: 25vh;
+    height: 25vh;
+    justify-content: center;
+    text-align: center;
+    border-radius: 3vh;
+
+}
+
+#card-img p{
+
+    padding-top: 2vh;
+     
+
+}
+
+#inner-img{
+    margin-top: -10vh;
+
+}
+
+#card-img p{
+    text-align: center;
+    color: white;
+}
+
+
+/* Beans */
+
+
+#bean-h{
+
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+
+.beans-main{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10vh;
+}
+
+
+
+
+
+#bean-p{
+    padding-top: 2vh;
+}
+
+
+#beans-card{
+    
+    border: 2px solid black;
+    width: 25vh;
+    height: 25vh;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1vh;
+
+}
+
+
+
+
+#inner-img{
+    margin-top: -10vh;
+
+}
+
+
+/* Footer */
+.footer-main{
+
+    padding-top: 5vh;
+    
+
+
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    background-color: rgb(74, 69, 69);
+    color: wheat;
+    text-align: center;
+   align-items: center;
+
 }
