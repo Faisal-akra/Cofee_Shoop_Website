@@ -5,9 +5,7 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, rgba(98, 38, 38, 0.245), rgba(98, 38, 38, 0.245)), url(./new-back.png) ;
-    background-repeat: no-repeat;
-    background-size: cover;
+  
     
 
 }
@@ -17,7 +15,7 @@ body{
 .main{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(173, 141, 141);
+    background-color: rgb(26, 14, 6);
     width: 100%;
 }
 
@@ -25,21 +23,28 @@ body{
 .anchor-tage {
     justify-content: space-evenly;
     display: flex;
-
     padding-right: 5vh;
     padding-top: 2vh;
 
 }
 
+
+
 .anchor-tage a{
     text-decoration: none;
-    border: 1px solid ;
+    border: 1px solid white ;
     border-radius: 10px;
     padding: 3px;
+    color: white;
     text-align: center;
-
     
+    
+}
 
+.anchor-tage a:hover{
+    background-color: crimson;
+    color: white;
+    font-family: cursive;
 
 }
 .logo{
@@ -69,8 +74,13 @@ body{
 
 #head{
     color: rgb(77, 42, 42);
+    font-family: cursive;
 }
 
+#c-heading{
+    transition: all 0.5s ease; /* Adjust the duration and easing as needed */
+
+}
 
 .cup-div{
 
@@ -93,6 +103,12 @@ body{
 #main-but{
     margin-left: 15vh;
     padding: 1vh;
+}
+
+#main-but:hover{
+    background-color: crimson;
+    color: white;
+    font-family: cursive;
 }
 
 #over{
@@ -250,11 +266,13 @@ body{
 @media (max-width: 768px) {
     .footer-main {
         flex-direction: row; /* Stack the nav items vertically */
+        width: 100%;
     }
 
     #e img {
-        height: auto; /* Allow the image to resize */
+        /* height: auto; Allow the image to resize */
         /* width: 100%;  */
+
     }
 }
 
