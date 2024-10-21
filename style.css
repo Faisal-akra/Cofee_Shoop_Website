@@ -206,3 +206,56 @@ body{
    align-items: center;
 
 }
+
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column; /* Stack the nav items vertically */
+    }
+
+    .cup-div img {
+        height: auto; /* Allow the image to resize */
+        width: 100%; /* Make the image take full width */
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .coffee-main {
+        flex-direction: row; /* Stack the nav items vertically */
+    }
+
+    #card-img img {
+        height: auto; /* Allow the image to resize */
+        width: 100%; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .beans-main {
+        flex-direction: row; /* Stack the nav items vertically */
+    }
+
+    #beans-card img {
+        height: auto; /* Allow the image to resize */
+        width: 100%; 
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .footer-main {
+        flex-direction: row; /* Stack the nav items vertically */
+    }
+
+    #e img {
+        height: auto; /* Allow the image to resize */
+        /* width: 100%;  */
+    }
+}
+
+
